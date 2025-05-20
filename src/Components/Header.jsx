@@ -7,7 +7,17 @@ function Header() {
             MCODE
 
         </h1>
+        
+        <nav className='items-center hidden gap-12 md:flex'>
+          <a className='z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300' href="#">company</a>
+          <a className='z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300' href="#">features</a>
+          <a className='z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300' href="#">resources</a>
+          <a className='z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300' href="#">docs</a>
+        </nav>
 
+        <button className='hidden md:block bg-[#a7a7a7] text-black py-3 px-8 rounded-full border-none font-medium transition-all duration-500 hover:bg-white cursor-pointer z-50'>
+          SIGNIN
+        </button>
     </header>
   )
 }
