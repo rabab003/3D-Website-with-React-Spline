@@ -1,5 +1,6 @@
 import sq from "./images/gradient.png"
 import Header from "./Components/Header"
+import Hero from "./Components/Hero"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
        </div>
        <Header/>
+       <Hero/>
     </main>
       
     </>
@@ -21,4 +23,4 @@ function App() {
 
 export default App
 
-// 20:30
+// 31:20
