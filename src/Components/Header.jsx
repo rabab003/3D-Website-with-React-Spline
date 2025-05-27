@@ -16,16 +16,26 @@ function Header() {
 
   return (
     <header className='flex items-center justify-between px-4 py-4 lg:px-20'>
-        <h1 className='m-0 text-3xl font-light md:text-4xl lg:text-5xl'>
+        <h1  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000" className='m-0 text-3xl font-light md:text-4xl lg:text-5xl'>
             MCODE
 
         </h1>
         
         <nav className='items-center hidden gap-12 md:flex'>
-          <a className='z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300' href="#">company</a>
-          <a className='z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300' href="#">features</a>
-          <a className='z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300' href="#">resources</a>
-          <a className='z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300' href="#">docs</a>
+          <a  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1300" className='z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300' href="#">company</a>
+          <a  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1200" className='z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300' href="#">features</a>
+          <a  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1100" className='z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300' href="#">resources</a>
+          <a  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000" className='z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300' href="#">docs</a>
         </nav>
 
         <button className='hidden md:block bg-[#a7a7a7] text-black py-3 px-8 rounded-full border-none font-medium transition-all duration-500 hover:bg-white cursor-pointer z-50'>
